@@ -25,7 +25,7 @@
     "src"
   ],
   "dependencies": {
-    "@plug_chain/tools": "link:../tools"
+    "@plug_chain/tools": "workspace:*"
   },
   "devDependencies": {
     "jest": "^29.4.1",

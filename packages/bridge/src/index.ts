@@ -1,6 +1,6 @@
 import { getHexAddress } from '@plug_chain/tools';
-import { setResultDevice, setResultOk, setResultUnknown } from './interface';
-import { TypeResult, TypePermission, TypeAllResult, TypeSuccessResult, TypeErrorResult } from './interface.type';
+import { setResultDevice } from './interface';
+import { TypePermission, TypeAllResult } from './interface.type';
 import { checkIsExtension, extensionApplyPermissionV2, extensionBaseCallV2, extensionGetAccountV2, extensionGetPermissionV2, extensionGetVersion,extensionContractCallV2,extensionContractSignStrV2,extensionGetBalanceV2,extensionGetRealBalanceV2 } from './web';
 import { checkIsWallet, walletApplyPermissionV2, walletBaseCallV2, walletContractCallSignV2, walletContractCallV2, walletGetAccountV2, walletGetPermissionV2, walletGetVersion } from './wallet';
 
