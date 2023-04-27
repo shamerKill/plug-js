@@ -1,5 +1,5 @@
 {
-  "name": "@plug_chain/tools",
+  "name": "@plugchain/tools",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
